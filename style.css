@@ -217,7 +217,7 @@ section .title::after{
     width: 45%;
 }
 .about .about-content .left img{
-    height: 400px;
+    height: 500px;
     width: 400px;
     object-fit: cover;
     border-radius: 6px;
@@ -378,7 +378,7 @@ section .title::after{
 
 /* project section styling */
 .projects .title::after{
-    width: 180px;
+    width: 80px;
     content: "Projects";
 }
 .projects .carousel .card{
@@ -407,6 +407,18 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+.projects .carousel .card h3{
+    transition: all 0.3s ease;
+    border-bottom: 2px solid crimson;
+}
+.projects .carousel .card p{
+    padding: 0 0 5px;
+}
+.projects .carousel .card:hover h3{
+    transition: all 0.3s ease;
+    border-bottom: 3px solid white;
+}
+
 .projects .carousel .card img{
     height: 150px;
     width: 150px;
@@ -415,6 +427,28 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
+
+/* styling of the language images */
+.projects .carousel .card .imageholder{
+    text-align: justify;
+    padding: 40px 0 0;
+}
+.projects .carousel .card .imageholder::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.projects .carousel .card .imageholder img{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid crimson;
+    transition: all 0.3s ease;
+}
+/* Exit */
+
 .projects .carousel .card:hover img{
     border-color: #fff;
 }
