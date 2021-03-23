@@ -35,14 +35,14 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Developer", "Hacker", "Coder", "Designer", "Freelancer", "Programmer", "Gamer"],
+        strings: ["Developer", "Hacker", "Coder", "Designer", "Freelancer", "Programmer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Developer", "Hacker", "Coder", "Designer", "Freelancer", "Programmer", "Gamer"],
+        strings: ["Developer", "Hacker", "Coder", "Designer", "Freelancer", "Programmer"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
@@ -63,10 +63,10 @@ $(document).ready(function(){
                 items: 2,
                 nav: false
             },
-            1000:{
-                items: 3,
-                nav: false
-            }
+            // 1000:{
+            //     items: 3,
+            //     nav: false
+            // }
         }
     });
 
@@ -84,10 +84,10 @@ $(document).ready(function(){
                 items: 2,
                 nav: false
             },
-            1000:{
-                items: 3,
-                nav: false
-            }
+            // 1000:{
+            //     items: 3,
+            //     nav: false
+            // }
         }
     });
 });

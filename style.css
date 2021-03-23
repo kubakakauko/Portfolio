@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, .certification, .timeline, footer{
+.about, .services, .skills, .projects, .contact, .certification, .timeline, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content, 
@@ -211,7 +211,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who am i";
+    content: "Introduction";
 }
 .about .about-content .left{
     width: 45%;
@@ -254,20 +254,20 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams, .timeline{ /*Might add certification to the list here*/
+.services, .projects, .timeline{ /*Might add certification to the list here*/
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.teams .title::before,
+.projects .title::before,
 .timeline .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after,
+.projects .title::after,
 .timeline .title::after{
     background: #111;
-    content: "what i provide";
+    content: "What I do";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -304,7 +304,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "Languages and Skills";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
@@ -376,12 +376,12 @@ section .title::after{
     width: 30%;
 }
 
-/* teams section styling */
-.teams .title::after{
+/* project section styling */
+.projects .title::after{
     width: 180px;
-    content: "who works with me";
+    content: "Projects";
 }
-.teams .carousel .card{
+.projects .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -389,25 +389,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.projects .carousel .card:hover{
     background: crimson;
 }
-.teams .carousel .card .box{
+.projects .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.projects .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.projects .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.projects .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -415,7 +415,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.projects .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
@@ -443,7 +443,7 @@ section .title::after{
 
 /*Certification section styling*/
 .certification .title::after{
-    content: "click to view";
+    content: "More to come";
 }
 
 .certification .carousel-two .card{
@@ -529,7 +529,7 @@ section .title::after{
     position: relative;
 }
 .timeline .title::after{
-    content: "where i've been";
+    content: "Start -> Now";
 }
 .timeline .timeline-body::before{
     content: '';
@@ -641,7 +641,7 @@ section .title::after{
 
 /* contact section styling */
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
 }
 .contact .contact-content .column{
     width: calc(50% - 30px);
